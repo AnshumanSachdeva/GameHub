@@ -24,13 +24,16 @@ A stunning, modern take on the classic Tetris game built with HTML, CSS, and Jav
 - **Scoring**: Earn points based on lines cleared and current level
 - **Levels**: Advance levels every 10 lines cleared, increasing game speed
 
-## 🚀 How to Play
+## 🚀 How to Run Locally
 
-1. Click the "Play" button to start a new game
-2. Use arrow keys to control the falling pieces
-3. Clear complete rows to score points
-4. Watch your level and lines increase as you progress
-5. Try to beat your high score!
+1. Clone or download this repository.
+2. Navigate to the `2D Games/BlockRush/` folder.
+3. Start a local server:
+   ```bash
+   python -m http.server 8000
+   ```
+4. Open your browser and go to `http://localhost:8000`.
+5. Click "Play" and enjoy the game!
 
 ## 📁 File Structure
 
